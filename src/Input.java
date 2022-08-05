@@ -27,6 +27,8 @@ public class Input {
 			
 			System.out.println("계속(i/o)?:  ");
 			io = this.sc.next();
+			this.sc.nextLine();//버퍼날리기 ㅋ
+			
 		} while (io.equals("I") || io.equals("i"));
 		return count;
 	}
